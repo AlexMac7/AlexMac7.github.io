@@ -80,6 +80,7 @@ li > a {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
             "projects-title projects-title"
+            "rundown        about-rundown"
             "tis            about-tis"
             "dvlop          about-dvlop"
 ;
@@ -90,6 +91,14 @@ li > a {
     padding: 1.5rem;
     font-size: 3rem;
     border-bottom: .5rem solid var(--highlight-color)
+}
+.rundown {
+    grid-area: rundown;
+    padding: 1.5rem;
+}
+.about-rundown {
+    grid-area: about-rundown;
+    padding: 1.5rem;
 }
 .tis {
     grid-area: tis;
@@ -124,7 +133,6 @@ li > a {
     font-weight: var(--normal-font-weight);
     color: var(--light-grey-text);
 }
-
 .spark-text > a {
     color: var(--grey-text);
     text-decoration: none;
