@@ -204,6 +204,8 @@ a:hover {
         grid-template-columns: 1fr;
         grid-template-areas:
                 "projects-title"
+                "rundown"
+                "about-rundown"
                 "tis"
                 "about-tis"
                 "dvlop"
@@ -238,6 +240,8 @@ a:hover {
         grid-template-columns: 1fr;
         grid-template-areas:
                 "projects-title"
+                "rundown"
+                "about-rundown"
                 "tis"
                 "about-tis"
                 "dvlop"
