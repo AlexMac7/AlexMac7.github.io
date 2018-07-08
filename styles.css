@@ -82,8 +82,7 @@ li > a {
             "projects-title projects-title"
             "rundown        about-rundown"
             "tis            about-tis"
-            "dvlop          about-dvlop"
-;
+            "dvlop          about-dvlop";
 }
 .projects-title {
     grid-area: projects-title;
@@ -145,6 +144,21 @@ img {
     border: 0;
     box-shadow: 0 .25rem .5rem hsla(0 ,0%, 0%, 0.2);
     border-radius: 1rem;
+}
+#side-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "projects-title     projects-title"
+            "dealership-layout  about-dealership-layout";
+}
+.dealership-layout {
+    grid-area: dealership-layout;
+    padding: 1.5rem;
+}
+.about-dealership-layout {
+    grid-area: about-dealership-layout;
+    padding: 1.5rem;
 }
 .bottom {
     background-image: url("../AlexMac7.github.io/images/dust-scratches.png");
@@ -209,8 +223,16 @@ a:hover {
                 "tis"
                 "about-tis"
                 "dvlop"
-                "about-dvlop"
-    ;
+                "about-dvlop";
+    }
+    #side-projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "projects-title"
+                "projects-title"
+                "dealership-layout"
+                "about-dealership-layout";
     }
     .bottom {
         padding: 1.5rem;
@@ -234,19 +256,6 @@ a:hover {
     }
     .hero-title, .hero-text {
         max-width: 85vw;
-    }
-    #featured-projects {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-                "projects-title"
-                "rundown"
-                "about-rundown"
-                "tis"
-                "about-tis"
-                "dvlop"
-                "about-dvlop"
-    ;
     }
     .bottom {
         padding: 1.5rem;
