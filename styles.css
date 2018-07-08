@@ -127,6 +127,10 @@ li > a {
     font-weight: var(--normal-font-weight);
     color: var(--light-grey-text);
 }
+.project-links {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
 .spark-text {
     font-size: 1.5rem;
     font-weight: var(--normal-font-weight);
